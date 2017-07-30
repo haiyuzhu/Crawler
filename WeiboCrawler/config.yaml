@@ -1,0 +1,31 @@
+# NOTE: each ':' followed by a ' '(space)
+# user name of Weibo
+username: ""
+# password of Weibo
+password: ""
+# keyword of Weibo content
+keyword: "加班"
+# time scope of the Weibo
+start_time: "2017-06-23-00"
+stop_time: "2017-06-23-10"
+# the location of the Weibo
+# you can refer to 'GlobalVariable.py' or Weibo Search for more detail
+# the numbers of region and sub-region MUST be equal
+# NOTE: each "-" followed by a ' '(space)
+region:
+- "上海"
+- "江苏"
+subregion:
+- "不限"
+- "不限"
+
+# type of the weibo: "全部","热门","原创","关注人","认证用户","媒体"
+weibo_type: "原创"
+# Weibo content: "全部","含图片","含视频","含音乐","含短链接"
+weibo_containing: "全部"
+######################################################################
+# 云打码网站用户名和密码，以及APP
+ydm_username: ""
+ydm_password: ""
+app_id:
+app_key: ""
